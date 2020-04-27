@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import './App.css';
+import MainContainer from './Components/MainContainer';
 
 class App extends Component {
   state = {
@@ -11,16 +12,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="page-wraper">
-        
-        <nav className="alert alert-secondary" role="alert">
-          <h1>This is the main nav bar</h1>
-          <a href="/about/">About</a> |
-          <a href="/contact/">Contact</a> |
-          <a href="/services/">Services</a> 
-        </nav>
-       
-      </div>
+      <MainContainer />
     );
   }
 }
