@@ -21,7 +21,7 @@ export default function MainContainer(props){
                 </div>
             </nav>
 
-            <div class="container margin-top:50px">
+            {/* <div class="container-fluid">
                 <div class="media">
                     <div class="media-body">
                     <h1 class="mt-0">Website Under Construction:
@@ -38,7 +38,7 @@ export default function MainContainer(props){
                     />
                     </div>
                 </div>
-            </div>
+            </div> */}
             
         </body>
     )
